@@ -1,10 +1,14 @@
 import React from 'react'
 
-const Aside = () => {
+function Aside() {
     return (
-        <div>
-            <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veritatis natus harum dignissimos at quibusdam nesciunt expedita quam assumenda, et ipsa suscipit error dolore quod accusamus sed odio officiis beatae!</aside>
-        </div>
+        <>
+            <aside>
+                <h2>Este es un aside de informacion</h2>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatem explicabo vero veritatis! Ratione sint corporis, autem sequi placeat veritatis beatae aliquid sit rerum laborum laboriosam quam quod doloremque consectetur?</p>
+            </aside>
+        </>
     )
 }
 

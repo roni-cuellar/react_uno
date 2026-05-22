@@ -1,15 +1,13 @@
 import React from 'react'
 
-const Footer = () => {
+function Footer() {
     return (
-        <div>
-            <ul>
-                <li>Nombre: Roni cuellar</li>
-                <li>ADSO</li>
-                <li>ronicuellar2025@gmail.com</li>
-            </ul>
-        </div>
+    <footer>
+        <h2>Mi Footer</h2>
+        <p>© 2026 Todos los derechos reservados</p>
+    </footer>
     )
 }
 
 export default Footer
+

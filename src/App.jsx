@@ -1,24 +1,24 @@
-import React from 'react'
-import Header from './components/Header'
-import Seccion from './components/Seccion'
-import SeccionDos from './components/SeccionDos'
-import Aside from './components/Aside'
-import Footer from './components/Footer'
+import { BrowserRouter } from "react-router-dom"
+
+import Navbar from "./components/Navbar"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Principal_page from "./Pages/Principal_page"
+
+import AppRoutes from "./Routes/AppRoutes"
 
 
-const App = () => {
+function App() {
+
     return (
-        <>
-
+    <BrowserRouter>
         <Header/>
-        <Seccion/>
-        <SeccionDos/>
-        <Aside/>
+        <Navbar/>
+        <Principal_page/>
         <Footer/>
-        
-        </>
+
+    </BrowserRouter>
     )
-    }
+}
 
 export default App
-
