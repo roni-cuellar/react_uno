@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 
-import Principal_page from "../Pages/Principal_page"
-import Seccion_dos from "../Pages/Seccion_dos"
+import Principal_page from "../Pages/Principal_page/Principal_page"
+import Seccion_dos from "../Pages/Seccion_dos/Seccion_dos"
 
 function AppRoutes() {
     return (

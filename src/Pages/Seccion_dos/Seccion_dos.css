@@ -1,0 +1,10 @@
+.parrafo{
+    padding: 20px;
+    margin: 20px;
+    background-color:  rgb(110, 171, 224);
+    border-radius: 20px;
+    padding-bottom: auto;
+}
+.seccion{
+    display: flex;
+}
